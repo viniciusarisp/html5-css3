@@ -80,9 +80,10 @@ section.imagem > p {
 }
 section > p {
   font-family: var(--fonte01);
-  padding-left: 30px;
-  padding-top: 10vh;
   padding-bottom: 10vh;
+}
+section.imagem {
+  box-shadow: inset 6px 6px 13px rgba(0, 0, 0, 0.329);
 }
 
 section#img01 {
@@ -94,8 +95,9 @@ section#img02 {
   background-size: cover;
 }
 footer {
+  white-space: nowrap;
   font-family: var(--fonte02);
-  font-size: 1.2em;
+  font-size: 1.2vw;
   color: white;
   text-align: center;
   padding: 7px;
