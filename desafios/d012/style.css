@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Erica+One&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Passion+One&display=swap');
+
 @font-face {
   font-family: 'Sriracha';
   src: url(fontes/Sriracha-Regular.ttf) format('truetype');
@@ -12,7 +14,7 @@
 :root {
   --fonte01: 'Sriracha', cursive;
   --fonte02: Verdana, Geneva, Tahoma, sans-serif;
-  --fonte03: 'Work Sans', sans-serif;
+  --fonte03: 'Passion One', cursive;
 }
 
 * {
@@ -54,6 +56,7 @@ h1 {
   display: block;
   font-size: 10vw;
   font-family: var(--fonte03);
+  font-variant: small-caps;
 }
 
 header p {
@@ -61,7 +64,7 @@ header p {
     font-family: var(--fonte02)
 }
 
-body {
+html, body {
   min-height: 100vh;
   background-color: darkgray;
 
